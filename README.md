@@ -47,3 +47,4 @@ Evaluate the detected dps against the groudtruth dark patterns
 Output some metrics(precision, recall, F1)
 ```
 
+If you have any setting problem with Faster RCNN, please refer to https://github.com/chenjshnn/Object-Detection-for-Graphical-User-Interface.
