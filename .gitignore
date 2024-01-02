@@ -1,0 +1,10 @@
+src/rules_details
+src/test_data
+src/Twitter
+src/elementDetection/GT
+src/elementDetection/evaluation_frcnn.py
+src/img2size_6352.json
+src/elementDetection/FASTER_RCNN/data
+src/elementDetection/FASTER_RCNN/results/run/res101/ricoText 
+src/elementDetection/FASTER_RCNN/results/data
+src/elementDetection/FASTER_RCNN/results/run/res101/ricoOriText/faster_rcnn.pth

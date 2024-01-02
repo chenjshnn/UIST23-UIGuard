@@ -1,0 +1,34 @@
+cython
+cffi
+scipy
+msgpack
+easydict
+matplotlib
+pyyaml==5.4.1
+tensorboardX
+torch
+torchvision
+json
+pandas
+tqdm
+shapely
+numpy
+wordsegment
+pillow
+scikit-learn
+
+wcag_contrast_ratio
+scikit-image
+paddlepaddle
+paddleocr>=2.0.1
+PyQt5==5.11.3
+opencv-python==4.5.5.64
+
+pycocotools
+
+
+
+
+sudo apt-get update
+pip install pip --upgrade
+sudo apt-get install python3-opencv
