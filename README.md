@@ -1,15 +1,26 @@
 
-# UIST2023 Unveiling the Tricks: Automated Detection of Dark Patterns in Mobile Applications
+# Unveiling the Tricks: Automated Detection of Dark Patterns in Mobile Applications
 
-ACM Page: https://dl.acm.org/doi/abs/10.1145/3586183.3606783
+**Accepted to UIST2023**
 
-***Source code for UIGuard***
+## RESOURCE
+- Paper: [ACM](https://dl.acm.org/doi/abs/10.1145/3586183.3606783)
+- Video: [Youtube](https://www.youtube.com/watch?v=PkXHuPkatpk&t=16167s)
+- Dataset: [Zenodo](https://zenodo.org/records/8126443)
+- Code: [src](src/)
+- FRCNN Pretrained Models: [Zenodo](https://zenodo.org/record/8098605)
 
+## CODE
+All code is tested under Ubuntu 16.04, Cuda 9.0, PyThon 3.9, torch 1.12.1, Nvidia 1080 Ti and also tested under MacOS 13.2.1, Apple M1 Pro
+
+
+
+## Usage 
 
 Usage: python3 UIGuard.py
 
 
-UIGuard.py: code for detecting
+UIGuard.py: code for detecting deceptive patterns
 ```
 Modify L164 test_data_root to your data stored path
 Modify L177 parameter _vis_ to decide whether draw the result or not
@@ -32,7 +43,7 @@ Similar to other flags
 
 evaluate.py
 ```
-Evaluate the detected dps with the groudtruth dark patterns
+Evaluate the detected dps against the groudtruth dark patterns
 Output some metrics(precision, recall, F1)
 ```
 
