@@ -5,7 +5,7 @@
 
 ## RESOURCE
 - Paper: [ACM](https://dl.acm.org/doi/abs/10.1145/3586183.3606783)
-- Video: [Youtube](https://www.youtube.com/watch?v=PkXHuPkatpk&t=16167s)
+- Talk: [Youtube](https://www.youtube.com/watch?v=PkXHuPkatpk&t=16167s)
 - Dataset: [Zenodo](https://zenodo.org/records/8126443)
 - Code: [src](src/)
 - FRCNN Pretrained Models: [Zenodo](https://zenodo.org/record/8098605)
