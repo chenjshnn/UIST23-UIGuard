@@ -1,4 +1,5 @@
 
+
 # Unveiling the Tricks: Automated Detection of Dark Patterns in Mobile Applications
 
 **Accepted to UIST2023**
@@ -45,6 +46,7 @@ evaluate.py
 ```
 Evaluate the detected dps against the groudtruth dark patterns
 Output some metrics(precision, recall, F1)
+It reads detection JSON files from result_rule_check_FINAL_5Dec2022/**.json and ground truth from processed_data/Rico_testset/rico_test_annotations6352_addPrivacy.json
 ```
 
 If you have any configuration problems with Faster RCNN, please refer to https://github.com/chenjshnn/Object-Detection-for-Graphical-User-Interface.
